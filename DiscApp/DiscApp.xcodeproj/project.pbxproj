@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A330411419CD73F300527F47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A330411319CD73F300527F47 /* Foundation.framework */; };
+		A330411619CD73F300527F47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A330411519CD73F300527F47 /* CoreGraphics.framework */; };
+		A330411819CD73F300527F47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A330411719CD73F300527F47 /* UIKit.framework */; };
+		A330411E19CD73F300527F47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A330411C19CD73F300527F47 /* InfoPlist.strings */; };
+		A330412019CD73F300527F47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A330411F19CD73F300527F47 /* main.m */; };
+		A330412419CD73F300527F47 /* JHOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A330412319CD73F300527F47 /* JHOAppDelegate.m */; };
+		A330412719CD73F300527F47 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A330412519CD73F300527F47 /* Main_iPhone.storyboard */; };
+		A330412A19CD73F300527F47 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A330412819CD73F300527F47 /* Main_iPad.storyboard */; };
+		A330412D19CD73F300527F47 /* JHOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A330412C19CD73F300527F47 /* JHOViewController.m */; };
+		A330412F19CD73F300527F47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A330412E19CD73F300527F47 /* Images.xcassets */; };
+		A330413619CD73F300527F47 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A330413519CD73F300527F47 /* XCTest.framework */; };
+		A330413719CD73F400527F47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A330411319CD73F300527F47 /* Foundation.framework */; };
+		A330413819CD73F400527F47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A330411719CD73F300527F47 /* UIKit.framework */; };
+		A330414019CD73F400527F47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A330413E19CD73F400527F47 /* InfoPlist.strings */; };
+		A330414219CD73F400527F47 /* DiscAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A330414119CD73F400527F47 /* DiscAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A330413919CD73F400527F47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A330410819CD73F300527F47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A330410F19CD73F300527F47;
+			remoteInfo = DiscApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A330411019CD73F300527F47 /* DiscApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A330411319CD73F300527F47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A330411519CD73F300527F47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A330411719CD73F300527F47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A330411B19CD73F300527F47 /* DiscApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiscApp-Info.plist"; sourceTree = "<group>"; };
+		A330411D19CD73F300527F47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A330411F19CD73F300527F47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A330412119CD73F300527F47 /* DiscApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DiscApp-Prefix.pch"; sourceTree = "<group>"; };
+		A330412219CD73F300527F47 /* JHOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHOAppDelegate.h; sourceTree = "<group>"; };
+		A330412319CD73F300527F47 /* JHOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHOAppDelegate.m; sourceTree = "<group>"; };
+		A330412619CD73F300527F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A330412919CD73F300527F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A330412B19CD73F300527F47 /* JHOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHOViewController.h; sourceTree = "<group>"; };
+		A330412C19CD73F300527F47 /* JHOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHOViewController.m; sourceTree = "<group>"; };
+		A330412E19CD73F300527F47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A330413419CD73F300527F47 /* DiscAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A330413519CD73F300527F47 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A330413D19CD73F400527F47 /* DiscAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiscAppTests-Info.plist"; sourceTree = "<group>"; };
+		A330413F19CD73F400527F47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A330414119CD73F400527F47 /* DiscAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A330410D19CD73F300527F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A330411619CD73F300527F47 /* CoreGraphics.framework in Frameworks */,
+				A330411819CD73F300527F47 /* UIKit.framework in Frameworks */,
+				A330411419CD73F300527F47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A330413119CD73F300527F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A330413619CD73F300527F47 /* XCTest.framework in Frameworks */,
+				A330413819CD73F400527F47 /* UIKit.framework in Frameworks */,
+				A330413719CD73F400527F47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A330410719CD73F300527F47 = {
+			isa = PBXGroup;
+			children = (
+				A330411919CD73F300527F47 /* DiscApp */,
+				A330413B19CD73F400527F47 /* DiscAppTests */,
+				A330411219CD73F300527F47 /* Frameworks */,
+				A330411119CD73F300527F47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A330411119CD73F300527F47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A330411019CD73F300527F47 /* DiscApp.app */,
+				A330413419CD73F300527F47 /* DiscAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A330411219CD73F300527F47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A330411319CD73F300527F47 /* Foundation.framework */,
+				A330411519CD73F300527F47 /* CoreGraphics.framework */,
+				A330411719CD73F300527F47 /* UIKit.framework */,
+				A330413519CD73F300527F47 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A330411919CD73F300527F47 /* DiscApp */ = {
+			isa = PBXGroup;
+			children = (
+				A330412219CD73F300527F47 /* JHOAppDelegate.h */,
+				A330412319CD73F300527F47 /* JHOAppDelegate.m */,
+				A330412519CD73F300527F47 /* Main_iPhone.storyboard */,
+				A330412819CD73F300527F47 /* Main_iPad.storyboard */,
+				A330412B19CD73F300527F47 /* JHOViewController.h */,
+				A330412C19CD73F300527F47 /* JHOViewController.m */,
+				A330412E19CD73F300527F47 /* Images.xcassets */,
+				A330411A19CD73F300527F47 /* Supporting Files */,
+			);
+			path = DiscApp;
+			sourceTree = "<group>";
+		};
+		A330411A19CD73F300527F47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A330411B19CD73F300527F47 /* DiscApp-Info.plist */,
+				A330411C19CD73F300527F47 /* InfoPlist.strings */,
+				A330411F19CD73F300527F47 /* main.m */,
+				A330412119CD73F300527F47 /* DiscApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A330413B19CD73F400527F47 /* DiscAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A330414119CD73F400527F47 /* DiscAppTests.m */,
+				A330413C19CD73F400527F47 /* Supporting Files */,
+			);
+			path = DiscAppTests;
+			sourceTree = "<group>";
+		};
+		A330413C19CD73F400527F47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A330413D19CD73F400527F47 /* DiscAppTests-Info.plist */,
+				A330413E19CD73F400527F47 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A330410F19CD73F300527F47 /* DiscApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A330414519CD73F400527F47 /* Build configuration list for PBXNativeTarget "DiscApp" */;
+			buildPhases = (
+				A330410C19CD73F300527F47 /* Sources */,
+				A330410D19CD73F300527F47 /* Frameworks */,
+				A330410E19CD73F300527F47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiscApp;
+			productName = DiscApp;
+			productReference = A330411019CD73F300527F47 /* DiscApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A330413319CD73F300527F47 /* DiscAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A330414819CD73F400527F47 /* Build configuration list for PBXNativeTarget "DiscAppTests" */;
+			buildPhases = (
+				A330413019CD73F300527F47 /* Sources */,
+				A330413119CD73F300527F47 /* Frameworks */,
+				A330413219CD73F300527F47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A330413A19CD73F400527F47 /* PBXTargetDependency */,
+			);
+			name = DiscAppTests;
+			productName = DiscAppTests;
+			productReference = A330413419CD73F300527F47 /* DiscAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A330410819CD73F300527F47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JHO;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jhonatan;
+				TargetAttributes = {
+					A330413319CD73F300527F47 = {
+						TestTargetID = A330410F19CD73F300527F47;
+					};
+				};
+			};
+			buildConfigurationList = A330410B19CD73F300527F47 /* Build configuration list for PBXProject "DiscApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A330410719CD73F300527F47;
+			productRefGroup = A330411119CD73F300527F47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A330410F19CD73F300527F47 /* DiscApp */,
+				A330413319CD73F300527F47 /* DiscAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A330410E19CD73F300527F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A330412A19CD73F300527F47 /* Main_iPad.storyboard in Resources */,
+				A330412F19CD73F300527F47 /* Images.xcassets in Resources */,
+				A330412719CD73F300527F47 /* Main_iPhone.storyboard in Resources */,
+				A330411E19CD73F300527F47 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A330413219CD73F300527F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A330414019CD73F400527F47 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A330410C19CD73F300527F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A330412419CD73F300527F47 /* JHOAppDelegate.m in Sources */,
+				A330412019CD73F300527F47 /* main.m in Sources */,
+				A330412D19CD73F300527F47 /* JHOViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A330413019CD73F300527F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A330414219CD73F400527F47 /* DiscAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A330413A19CD73F400527F47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A330410F19CD73F300527F47 /* DiscApp */;
+			targetProxy = A330413919CD73F400527F47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A330411C19CD73F300527F47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A330411D19CD73F300527F47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A330412519CD73F300527F47 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A330412619CD73F300527F47 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A330412819CD73F300527F47 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A330412919CD73F300527F47 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A330413E19CD73F400527F47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A330413F19CD73F400527F47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A330414319CD73F400527F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A330414419CD73F400527F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A330414619CD73F400527F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiscApp/DiscApp-Prefix.pch";
+				INFOPLIST_FILE = "DiscApp/DiscApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A330414719CD73F400527F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiscApp/DiscApp-Prefix.pch";
+				INFOPLIST_FILE = "DiscApp/DiscApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A330414919CD73F400527F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DiscApp.app/DiscApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiscApp/DiscApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DiscAppTests/DiscAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A330414A19CD73F400527F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DiscApp.app/DiscApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiscApp/DiscApp-Prefix.pch";
+				INFOPLIST_FILE = "DiscAppTests/DiscAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A330410B19CD73F300527F47 /* Build configuration list for PBXProject "DiscApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A330414319CD73F400527F47 /* Debug */,
+				A330414419CD73F400527F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A330414519CD73F400527F47 /* Build configuration list for PBXNativeTarget "DiscApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A330414619CD73F400527F47 /* Debug */,
+				A330414719CD73F400527F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A330414819CD73F400527F47 /* Build configuration list for PBXNativeTarget "DiscAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A330414919CD73F400527F47 /* Debug */,
+				A330414A19CD73F400527F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A330410819CD73F300527F47 /* Project object */;
+}
