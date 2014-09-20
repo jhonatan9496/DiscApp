@@ -22,6 +22,9 @@
 		A330413819CD73F400527F47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A330411719CD73F300527F47 /* UIKit.framework */; };
 		A330414019CD73F400527F47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A330413E19CD73F400527F47 /* InfoPlist.strings */; };
 		A330414219CD73F400527F47 /* DiscAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A330414119CD73F400527F47 /* DiscAppTests.m */; };
+		A3D8708C19CE2E3400D09419 /* JHODiscapacidadesOfertaLaboralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D8708B19CE2E3400D09419 /* JHODiscapacidadesOfertaLaboralViewController.m */; };
+		A3D8708F19CE384200D09419 /* JHOListarOfertasLaboralesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D8708E19CE384200D09419 /* JHOListarOfertasLaboralesViewController.m */; };
+		A3D8709219CE467300D09419 /* JHOCadaOfertaLaboralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D8709119CE467300D09419 /* JHOCadaOfertaLaboralViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,12 @@
 		A330413D19CD73F400527F47 /* DiscAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiscAppTests-Info.plist"; sourceTree = "<group>"; };
 		A330413F19CD73F400527F47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A330414119CD73F400527F47 /* DiscAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscAppTests.m; sourceTree = "<group>"; };
+		A3D8708A19CE2E3400D09419 /* JHODiscapacidadesOfertaLaboralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHODiscapacidadesOfertaLaboralViewController.h; sourceTree = "<group>"; };
+		A3D8708B19CE2E3400D09419 /* JHODiscapacidadesOfertaLaboralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHODiscapacidadesOfertaLaboralViewController.m; sourceTree = "<group>"; };
+		A3D8708D19CE384200D09419 /* JHOListarOfertasLaboralesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOListarOfertasLaboralesViewController.h; sourceTree = "<group>"; };
+		A3D8708E19CE384200D09419 /* JHOListarOfertasLaboralesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOListarOfertasLaboralesViewController.m; sourceTree = "<group>"; };
+		A3D8709019CE467300D09419 /* JHOCadaOfertaLaboralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOCadaOfertaLaboralViewController.h; sourceTree = "<group>"; };
+		A3D8709119CE467300D09419 /* JHOCadaOfertaLaboralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOCadaOfertaLaboralViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +123,7 @@
 		A330411919CD73F300527F47 /* DiscApp */ = {
 			isa = PBXGroup;
 			children = (
+				A3D8708919CE2E0400D09419 /* OfertaLaboral */,
 				A330412219CD73F300527F47 /* JHOAppDelegate.h */,
 				A330412319CD73F300527F47 /* JHOAppDelegate.m */,
 				A330412519CD73F300527F47 /* Main_iPhone.storyboard */,
@@ -153,6 +163,19 @@
 				A330413E19CD73F400527F47 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3D8708919CE2E0400D09419 /* OfertaLaboral */ = {
+			isa = PBXGroup;
+			children = (
+				A3D8708A19CE2E3400D09419 /* JHODiscapacidadesOfertaLaboralViewController.h */,
+				A3D8708B19CE2E3400D09419 /* JHODiscapacidadesOfertaLaboralViewController.m */,
+				A3D8708D19CE384200D09419 /* JHOListarOfertasLaboralesViewController.h */,
+				A3D8708E19CE384200D09419 /* JHOListarOfertasLaboralesViewController.m */,
+				A3D8709019CE467300D09419 /* JHOCadaOfertaLaboralViewController.h */,
+				A3D8709119CE467300D09419 /* JHOCadaOfertaLaboralViewController.m */,
+			);
+			name = OfertaLaboral;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,7 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A330412419CD73F300527F47 /* JHOAppDelegate.m in Sources */,
+				A3D8708C19CE2E3400D09419 /* JHODiscapacidadesOfertaLaboralViewController.m in Sources */,
+				A3D8708F19CE384200D09419 /* JHOListarOfertasLaboralesViewController.m in Sources */,
 				A330412019CD73F300527F47 /* main.m in Sources */,
+				A3D8709219CE467300D09419 /* JHOCadaOfertaLaboralViewController.m in Sources */,
 				A330412D19CD73F300527F47 /* JHOViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,6 +497,7 @@
 				A330414719CD73F400527F47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A330414819CD73F400527F47 /* Build configuration list for PBXNativeTarget "DiscAppTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +506,7 @@
 				A330414A19CD73F400527F47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

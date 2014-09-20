@@ -26,4 +26,27 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
+/*
+ Subir 
+ 
+ …or create a new repository on the command line
+ 
+ 
+ touch README.md
+ git init
+ git add README.md
+ git commit -m "first commit"
+ git remote add origin https://github.com/jhonatan9496/DiscApp.git
+ git push -u origin master
+ …or push an existing repository from the command line
+ 
+ 
+ git remote add origin https://github.com/jhonatan9496/DiscApp.git
+ git push -u origin master
+ 
+ 
+ */
+
 @end
