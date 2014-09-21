@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="tTb-6y-jnr">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -8,7 +8,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <viewController id="BYZ-38-t0r" customClass="JHOViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="menu" id="BYZ-38-t0r" customClass="JHOViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -23,7 +23,7 @@
                                 <accessibility key="accessibilityConfiguration" hint="Menu Protafolio de movil Servicios Inclusivos, En orden vertical encontrara las Categorias de los servicios inclusivos." label="Menu Protafolio de movil Servicios Inclusivos, En orden vertical encontrara las Categorias de los servicios inclusivos.">
                                     <accessibilityTraits key="traits" none="YES" playsSound="YES" staticText="YES"/>
                                 </accessibility>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -33,7 +33,9 @@
                                 <accessibility key="accessibilityConfiguration" hint="Opcion del menu , Oferta Laboral ,  podras encontrar ofertas de trabajo y llamar al contacto de la empresa." label="Opcion del menu , Oferta Laboral ,  podras encontrar ofertas de trabajo y llamar al contacto de la empresa.">
                                     <accessibilityTraits key="traits" none="YES" button="YES" playsSound="YES"/>
                                 </accessibility>
-                                <state key="normal" title="Oferta Laboral ">
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Oferta Laboral " backgroundImage="pococampovisual.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -46,7 +48,9 @@
                                 <accessibility key="accessibilityConfiguration" label="Opcion del menu , Salud  ,  podras consultar servicios del sistema de salud con su descripcion y pasos para ejecutar la oferta.">
                                     <accessibilityTraits key="traits" none="YES" button="YES" playsSound="YES"/>
                                 </accessibility>
-                                <state key="normal" title="Salud ">
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" title="Salud " backgroundImage="pococampovisual.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -54,9 +58,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R8q-5G-z7c">
-                                <rect key="frame" x="54" y="632" width="649" height="113"/>
+                                <rect key="frame" x="54" y="632" width="649" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Educacion">
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="Educacion" backgroundImage="pococampovisual.jpg">
+                                    <color key="titleColor" red="0.023529414087533951" green="0.0039215688593685627" blue="0.011764707043766975" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -64,23 +70,102 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BBS-yg-fxK">
-                                <rect key="frame" x="54" y="839" width="649" height="98"/>
+                                <rect key="frame" x="54" y="823" width="649" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Ofertar mi Trabajo">
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Ofertar mi Trabajo" backgroundImage="pococampovisual.jpg">
+                                    <color key="titleColor" red="0.023529414087533951" green="0.0039215688593685627" blue="0.0078431377187371254" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="5cC-7h-Ine" kind="modal" id="bR2-o2-hJ7"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="-646" y="-307"/>
+            <point key="canvasLocation" x="-674" y="-331"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="pQ6-ez-tJK">
+            <objects>
+                <viewController id="qPq-yS-htu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pig-JK-pAJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="g5y-as-IJ1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="E8n-D2-vJJ">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTH-pi-yCQ">
+                                <rect key="frame" x="62" y="178" width="649" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" hint="Opcion del menu , Oferta Laboral ,  podras encontrar ofertas de trabajo y llamar al contacto de la empresa." label="Opcion del menu , Oferta Laboral ,  podras encontrar ofertas de trabajo y llamar al contacto de la empresa.">
+                                    <accessibilityTraits key="traits" none="YES" button="YES" playsSound="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <state key="normal" title="Oferta Laboral " backgroundImage="fondo1.jpg">
+                                    <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ZL-Yj-3uF">
+                                <rect key="frame" x="57" y="360" width="654" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="Opcion del menu , Salud  ,  podras consultar servicios del sistema de salud con su descripcion y pasos para ejecutar la oferta.">
+                                    <accessibilityTraits key="traits" none="YES" button="YES" playsSound="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title="Salud " backgroundImage="fondo2.jpg">
+                                    <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sEG-Zy-Qt8">
+                                <rect key="frame" x="62" y="540" width="649" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="Educacion" backgroundImage="fondo1.jpg">
+                                    <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydr-f9-S12">
+                                <rect key="frame" x="62" y="731" width="649" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="Ofertar mi Trabajo" backgroundImage="fondo2.jpg">
+                                    <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKd-xk-jiV">
+                                <rect key="frame" x="97" y="889" width="574" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="Volver" backgroundImage="fondo2.jpg">
+                                    <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tTb-6y-jnr" kind="modal" id="iFK-ou-GJ4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RfL-fa-hbj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-782" y="3836"/>
+        </scene>
+        <!--Tipo Discapacidad View Controller-->
         <scene sceneID="WAz-89-RQU">
             <objects>
-                <viewController id="tTb-6y-jnr" sceneMemberID="viewController">
+                <viewController id="tTb-6y-jnr" customClass="JHOTipoDiscapacidadViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6v4-gb-9dB"/>
                         <viewControllerLayoutGuide type="bottom" id="UIn-ET-o4L"/>
@@ -92,20 +177,28 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xw8-wh-igS">
                                 <rect key="frame" x="0.0" y="76" width="768" height="464"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Para mejorar su experiencia seleccione la imagen que mejor ve en la pantalla ">
+                                <state key="normal" title="Seleccione la imagen que mejor ve en la pantalla " backgroundImage="fondo1.jpg">
+                                    <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="qPq-yS-htu" kind="modal" id="35P-AI-Y31"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t9s-Um-gwa">
-                                <rect key="frame" x="0.0" y="574" width="768" height="450"/>
+                                <rect key="frame" x="0.0" y="539" width="768" height="478"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="Para mejorar su experiencia seleccione la imagen que mejor ve en la pantalla ">
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Seleccione la imagen que mejor ve en la pantalla " backgroundImage="pococampovisual.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="aM3-Tr-Wqj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -113,7 +206,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WkW-mB-FT3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1642" y="-307"/>
+            <point key="canvasLocation" x="-2642" y="1691"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fcK-Jl-Vpe">
@@ -152,15 +245,18 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="sPk-ix-1Hh">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <connections>
+                        <segue destination="nfI-Bh-pel" kind="relationship" relationship="rootViewController" id="TzE-9W-wnE"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SMu-Qh-3Og" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="456" y="2160"/>
         </scene>
-        <!--View Controller-->
+        <!--Enviar Oferta Mi Trabajo View Controller-->
         <scene sceneID="PBQ-YU-9Ma">
             <objects>
-                <viewController id="nfI-Bh-pel" sceneMemberID="viewController">
+                <viewController id="nfI-Bh-pel" customClass="JHOEnviarOfertaMiTrabajoViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vfA-hf-vpp"/>
                         <viewControllerLayoutGuide type="bottom" id="8ls-Lv-FhZ"/>
@@ -169,86 +265,111 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Titulo Secreto " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CsN-Hk-NkW">
-                                <rect key="frame" x="0.0" y="84" width="768" height="121"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ofertar Mi Trabajo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CsN-Hk-NkW">
+                                <rect key="frame" x="0.0" y="58" width="768" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <string key="hint">Ofertar mi trabajo,puede subir informacion de sus capacidades laborales para que las empresas puedan analizar un perfil laboral para usted</string>
+                                    <string key="label">Ofertar mi trabajo,puede subir informacion de sus capacidades laborales para que las empresas puedan analizar un perfil laboral para usted</string>
+                                    <accessibilityTraits key="traits" none="YES" playsSound="YES" staticText="YES"/>
+                                </accessibility>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qj5-uI-SXg">
-                                <rect key="frame" x="0.0" y="213" width="768" height="80"/>
+                                <rect key="frame" x="0.0" y="151" width="768" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" hint="En el campo de texto de abajo dijite su nombre" label="En el campo de texto de abajo dijite su nombre"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nax-aZ-c11">
-                                <rect key="frame" x="0.0" y="301" width="768" height="30"/>
+                                <rect key="frame" x="0.0" y="227" width="768" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <accessibility key="accessibilityConfiguration" hint="dijite aca su nombre " label="dijite aca su nombre "/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ltt-a3-Ggg">
-                                <rect key="frame" x="0.0" y="429" width="768" height="30"/>
+                                <rect key="frame" x="0.0" y="342" width="768" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <accessibility key="accessibilityConfiguration" hint="Digite aca la descripcion de su discapacidad " label="Digite aca la descripcion de su discapacidad "/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Descripcion Discapacidad" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnT-1v-riW">
-                                <rect key="frame" x="6" y="346" width="768" height="80"/>
+                                <rect key="frame" x="12" y="259" width="768" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" hint="En el campo de texto de abajo dijite uns descripcion de su discapacidad" label="En el campo de texto de abajo dijite uns descripcion de su discapacidad"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Im-hE-JAw">
-                                <rect key="frame" x="0.0" y="592" width="768" height="30"/>
+                                <rect key="frame" x="0.0" y="451" width="768" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <accessibility key="accessibilityConfiguration" hint="Digite aca la descripcion de su producto o trabajo que realiza " label="Digite aca la descripcion de su producto o trabajo que realiza "/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Descripcion del Producto" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WxL-gj-UZg">
-                                <rect key="frame" x="12" y="504" width="768" height="80"/>
+                                <rect key="frame" x="12" y="369" width="768" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" hint="En el campo de abajo digite la descripcion de su producto o trabajo que puede realizar" label="En el campo de abajo digite la descripcion de su producto o trabajo que puede realizar"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iB5-qD-Red">
-                                <rect key="frame" x="0.0" y="732" width="768" height="30"/>
+                                <rect key="frame" x="0.0" y="565" width="768" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <accessibility key="accessibilityConfiguration" hint="digite aca su telefono" label="digite aca su telefono"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Telefono" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ScK-QS-7eO">
-                                <rect key="frame" x="12" y="644" width="768" height="80"/>
+                                <rect key="frame" x="12" y="477" width="768" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" hint="en el campo de texto de abajo digite su telefono para contactarlo" label="en el campo de texto de abajo digite su telefono para contactarlo"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jp9-xQ-oPi">
-                                <rect key="frame" x="0.0" y="820" width="768" height="68"/>
+                                <rect key="frame" x="0.0" y="615" width="768" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Enviar ">
+                                <state key="normal" title="Enviar " backgroundImage="pococampovisual.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="enviarOferta:" destination="nfI-Bh-pel" eventType="touchUpInside" id="OJs-rg-Gij"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJi-q0-xfL">
-                                <rect key="frame" x="0.0" y="915" width="768" height="68"/>
+                                <rect key="frame" x="0.0" y="698" width="768" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Volver a Inicio ">
+                                <state key="normal" title="Volver a Inicio " backgroundImage="pococampovisual.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="UqO-yt-wF5"/>
+                    <connections>
+                        <outlet property="descripcion" destination="Ltt-a3-Ggg" id="KEo-xh-be7"/>
+                        <outlet property="descripcionProducto" destination="7Im-hE-JAw" id="yP4-fg-3v2"/>
+                        <outlet property="nombre" destination="nax-aZ-c11" id="zGs-D3-Lp6"/>
+                        <outlet property="telefono" destination="iB5-qD-Red" id="LEC-Kk-MU7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yNP-nk-dCw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1359" y="2160"/>
         </scene>
-        <!--View Controller-->
+        <!--Seleccionar Discapacidad Educacion View Controller-->
         <scene sceneID="Y0n-64-Ic2">
             <objects>
-                <viewController id="Odk-yD-S6R" sceneMemberID="viewController">
+                <viewController id="Odk-yD-S6R" customClass="JHOSeleccionarDiscapacidadEducacionViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3RG-mC-LrY"/>
                         <viewControllerLayoutGuide type="bottom" id="Xac-Hk-dim"/>
@@ -257,89 +378,118 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Seleccionar Discapacidad del Estudiante " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wav-v0-HCk">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Seleccionar Discapacidad del Estudiante " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="747" translatesAutoresizingMaskIntoConstraints="NO" id="Wav-v0-HCk">
                                 <rect key="frame" x="21" y="72" width="747" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <accessibility key="accessibilityConfiguration" label="Selecciones Discap"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Discapacidad Fisica " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8U-Yf-uIn">
                                 <rect key="frame" x="65" y="201" width="692" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <accessibility key="accessibilityConfiguration" hint="A la Derecha encuenta el boton para seleccionar discapacidad Fisica" label="A la Derecha encuenta el boton para seleccionar discapacidad Fisica"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Discapacidad Auditiva " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXN-7b-dWp">
                                 <rect key="frame" x="65" y="322" width="692" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <accessibility key="accessibilityConfiguration" hint="A la Derecha encuenta el boton para seleccionar discapacidad Auditiva" label="A la Derecha encuenta el boton para seleccionar discapacidad Auditiva"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Discapacidad Visual " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crD-IZ-Lv5">
                                 <rect key="frame" x="65" y="465" width="692" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <accessibility key="accessibilityConfiguration" hint="A la Derecha encuenta el boton para seleccionar discapacidad visual" label="A la Derecha encuenta el boton para seleccionar discapacidad visual"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Discapacidad Mental  " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xry-sm-9cc">
                                 <rect key="frame" x="65" y="614" width="692" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <accessibility key="accessibilityConfiguration" hint="A la Derecha encuenta el boton para seleccionar discapacidad mental" label="A la Derecha encuenta el boton para seleccionar discapacidad mental"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Discapacidad Cognitiva   " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yQm-Rq-eQ3">
-                                <rect key="frame" x="65" y="748" width="692" height="118"/>
+                                <rect key="frame" x="65" y="748" width="692" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <accessibility key="accessibilityConfiguration" hint="A la Derecha encuenta el boton para seleccionar discapacidad cognitiva" label="A la Derecha encuenta el boton para seleccionar discapacidad cognitiva"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="q6Q-au-1vB">
                                 <rect key="frame" x="582" y="791" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" hint="Opcion Activar ó Desactivar discapacidad Cognitiva." label="Opcion Activar ó Desactivar discapacidad Cognitiva."/>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Css-7a-T83">
                                 <rect key="frame" x="582" y="245" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" hint="Opcion Activar ó Desactivar discapacidad Fisica." label="Opcion Activar ó Desactivar discapacidad Fisica."/>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cLs-k8-biI">
                                 <rect key="frame" x="582" y="365" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" hint="Opcion Activar ó Desactivar discapacidad Auditiva." label="Opcion Activar ó Desactivar discapacidad Auditiva."/>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="e5i-ri-4TG">
                                 <rect key="frame" x="582" y="508" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" hint="Opcion Activar ó Desactivar discapacidad Visual." label="Opcion Activar ó Desactivar discapacidad Visual."/>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="amR-vs-HvB">
                                 <rect key="frame" x="582" y="657" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" hint="Opcion Activar ó Desactivar discapacidad Mental." label="Opcion Activar ó Desactivar discapacidad Mental."/>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxa-GM-Sxi">
-                                <rect key="frame" x="0.0" y="874" width="768" height="65"/>
+                                <rect key="frame" x="0.0" y="848" width="768" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Avanzar Nombres Instituciones">
+                                <accessibility key="accessibilityConfiguration" hint="Buscar las Ofertas laborales filtrando las discapacidades seleccionadas" label="Buscar las Ofertas laborales filtrando las discapacidades seleccionadas"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Buscar Instituciones Educativas Segun Caracteristicas " backgroundImage="pococampovisual.jpg">
+                                    <color key="titleColor" red="0.015686275437474251" green="0.0078431377187371254" blue="0.011764707043766975" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="avanzarNombresInstituciones:" destination="Odk-yD-S6R" eventType="touchUpInside" id="uGm-KU-ZdB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d8g-zB-8Rv">
                                 <rect key="frame" x="0.0" y="947" width="768" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Volver Menu Servicios">
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Volver Menu Servicios" backgroundImage="pococampovisual.jpg">
+                                    <color key="titleColor" red="0.019607843831181526" green="0.0039215688593685627" blue="0.011764707043766975" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="wIe-51-oMV"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="FeW-o0-CWc"/>
+                    <connections>
+                        <outlet property="disAuditiva" destination="cLs-k8-biI" id="9Iq-oh-cYM"/>
+                        <outlet property="disCongnitiva" destination="q6Q-au-1vB" id="IFq-JQ-AMo"/>
+                        <outlet property="disMental" destination="amR-vs-HvB" id="4Qc-qM-IFI"/>
+                        <outlet property="disVisual" destination="e5i-ri-4TG" id="nlx-AY-ReD"/>
+                        <outlet property="selectFisica" destination="Css-7a-T83" id="QVb-8X-uxn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V0G-0t-Rpp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1359" y="952"/>
+            <point key="canvasLocation" x="1359" y="947"/>
         </scene>
-        <!--View Controller-->
+        <!--Listados Instituciones Educacion View Controller-->
         <scene sceneID="FNF-fV-nVH">
             <objects>
-                <viewController id="PF0-hC-uoc" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ListarEducativas" id="PF0-hC-uoc" customClass="JHOListadosInstitucionesEducacionViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="buf-4V-Kga"/>
                         <viewControllerLayoutGuide type="bottom" id="Qsw-CG-2aA"/>
@@ -351,26 +501,33 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Listado Instituciones Educativas segun su discapacidad " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GNk-vG-cxa">
                                 <rect key="frame" x="0.0" y="87" width="768" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="93S-oo-ejv">
-                                <rect key="frame" x="0.0" y="193" width="768" height="672"/>
+                                <rect key="frame" x="0.0" y="193" width="768" height="831"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="PF0-hC-uoc" id="04g-pk-yyj"/>
+                                    <outlet property="delegate" destination="PF0-hC-uoc" id="BqQ-Q0-aLd"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="93S-oo-ejv" id="XQW-3y-5aj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UJR-aY-0Vw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2335" y="952"/>
+            <point key="canvasLocation" x="2303" y="960"/>
         </scene>
-        <!--View Controller-->
+        <!--Cada Institucion Educativa View Controller-->
         <scene sceneID="zgB-io-wCW">
             <objects>
-                <viewController id="XOY-JZ-S2i" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CadaInstitucionEducativa" id="XOY-JZ-S2i" customClass="JHOCadaInstitucionEducativaViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xzy-2p-tKR"/>
                         <viewControllerLayoutGuide type="bottom" id="bu7-Ig-d9Q"/>
@@ -382,44 +539,47 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre De la Insitucion Educativa " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHM-Rg-3KN">
                                 <rect key="frame" x="0.0" y="89" width="768" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre : Institucion " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8l1-4p-DZb">
-                                <rect key="frame" x="80" y="240" width="632" height="123"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Requisitos  : Listado " lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="632" translatesAutoresizingMaskIntoConstraints="NO" id="kmx-uj-NFJ">
+                                <rect key="frame" x="80" y="276" width="632" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Requisitos  : Listado " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kmx-uj-NFJ">
-                                <rect key="frame" x="80" y="371" width="632" height="123"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fecha Matriculas   : Fecha " lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="632" translatesAutoresizingMaskIntoConstraints="NO" id="qJO-ey-1Hz">
+                                <rect key="frame" x="80" y="424" width="632" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fecha Matriculas   : Fecha " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qJO-ey-1Hz">
-                                <rect key="frame" x="80" y="537" width="632" height="123"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFB-sl-Tnm">
-                                <rect key="frame" x="0.0" y="704" width="761" height="81"/>
+                                <rect key="frame" x="0.0" y="704" width="768" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Llamar ">
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Llamar " backgroundImage="pococampovisual.jpg">
+                                    <color key="titleColor" red="0.023529414087533951" green="0.0039215688593685627" blue="0.011764707043766975" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejG-xR-DQL">
-                                <rect key="frame" x="4" y="786" width="761" height="81"/>
+                                <rect key="frame" x="0.0" y="802" width="768" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Volver ">
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Volver " backgroundImage="pococampovisual.jpg">
+                                    <color key="titleColor" red="0.023529414087533951" green="0.0039215688593685627" blue="0.011764707043766975" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="labelFecha" destination="qJO-ey-1Hz" id="EyA-iA-jhu"/>
+                        <outlet property="labelNombreInstitucion" destination="PHM-Rg-3KN" id="9Bg-gU-WQv"/>
+                        <outlet property="labelRequistos" destination="kmx-uj-NFJ" id="q3g-nD-A1A"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="APk-G8-bDM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -440,7 +600,7 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Listado de Servicios de Salud " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nX0-Gm-d78">
                                 <rect key="frame" x="0.0" y="91" width="768" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Wu1-4B-vJD">
@@ -452,6 +612,10 @@
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                     <textInputTraits key="textInputTraits"/>
                                 </searchBar>
+                                <connections>
+                                    <outlet property="dataSource" destination="W2v-7N-po4" id="kg5-cQ-6Fk"/>
+                                    <outlet property="delegate" destination="W2v-7N-po4" id="9cV-bn-yyw"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -459,7 +623,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VMF-KV-Hrb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1359" y="-324"/>
+            <point key="canvasLocation" x="1351" y="-331"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="QXT-AV-KDl">
@@ -553,7 +717,7 @@
             </objects>
             <point key="canvasLocation" x="431" y="-1511"/>
         </scene>
-        <!--Discapacidades Oferta Laboral View Controller - Seleccionar Discapacidades-->
+        <!--Discapacidades Oferta Laboral View Controller - Seleccionar Discapacidades para Filtrar -->
         <scene sceneID="mud-90-tbO">
             <objects>
                 <viewController id="UjP-ng-npr" customClass="JHODiscapacidadesOfertaLaboralViewController" sceneMemberID="viewController">
@@ -571,7 +735,7 @@
                                 <accessibility key="accessibilityConfiguration" hint="A la Derecha encuenta el boton para seleccionar discapacidad Fisica" label="A la Derecha encuenta el boton para seleccionar discapacidad Fisica">
                                     <accessibilityTraits key="traits" none="YES" playsSound="YES" staticText="YES"/>
                                 </accessibility>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Discapacidad Auditiva " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lOg-0W-cli">
@@ -580,7 +744,7 @@
                                 <accessibility key="accessibilityConfiguration" hint="A la Derecha encuenta el boton para seleccionar discapacidad Auditiva" label="A la Derecha encuenta el boton para seleccionar discapacidad Auditiva">
                                     <accessibilityTraits key="traits" none="YES" playsSound="YES" staticText="YES"/>
                                 </accessibility>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Discapacidad Visual " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YNj-YH-cSJ">
@@ -589,7 +753,7 @@
                                 <accessibility key="accessibilityConfiguration" hint="A la Derecha encuenta el boton para seleccionar discapacidad visual" label="A la Derecha encuenta el boton para seleccionar discapacidad visual">
                                     <accessibilityTraits key="traits" none="YES" playsSound="YES" staticText="YES"/>
                                 </accessibility>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Discapacidad Mental " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34R-MQ-hQ4">
@@ -598,7 +762,7 @@
                                 <accessibility key="accessibilityConfiguration" hint="A la Derecha encuenta el boton para seleccionar discapacidad mental" label="A la Derecha encuenta el boton para seleccionar discapacidad mental">
                                     <accessibilityTraits key="traits" none="YES" playsSound="YES" staticText="YES"/>
                                 </accessibility>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Discapacidad Cognitiva  " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sa0-2E-rt3">
@@ -607,16 +771,18 @@
                                 <accessibility key="accessibilityConfiguration" hint="A la Derecha encuenta el boton para seleccionar discapacidad cognitiva" label="A la Derecha encuenta el boton para seleccionar discapacidad cognitiva">
                                     <accessibilityTraits key="traits" none="YES" playsSound="YES" staticText="YES"/>
                                 </accessibility>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZv-rF-53N">
-                                <rect key="frame" x="5" y="867" width="763" height="70"/>
+                                <rect key="frame" x="0.0" y="867" width="768" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <accessibility key="accessibilityConfiguration" label="Buscar las Ofertas laborales filtrando las discapacidades seleccionadas">
+                                <accessibility key="accessibilityConfiguration" hint="Buscar las Ofertas laborales filtrando las discapacidades seleccionadas" label="Buscar las Ofertas laborales filtrando las discapacidades seleccionadas">
                                     <accessibilityTraits key="traits" none="YES" button="YES" playsSound="YES"/>
                                 </accessibility>
-                                <state key="normal" title="Buscar Oferta Laboral Segun Caracteristicas ">
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Buscar Oferta Laboral Segun Caracteristicas " backgroundImage="pococampovisual.jpg">
+                                    <color key="titleColor" red="0.023529414087533951" green="0.011764707043766975" blue="0.0039215688593685627" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -629,7 +795,9 @@
                                 <accessibility key="accessibilityConfiguration" hint="Regresar al menu principal de Servicios Inclusivos  " label="Regresar al menu principal de Servicios Inclusivos  ">
                                     <accessibilityTraits key="traits" none="YES" button="YES" playsSound="YES"/>
                                 </accessibility>
-                                <state key="normal" title="Regresar al Menu Servicios">
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Regresar al Menu Servicios" backgroundImage="pococampovisual.jpg">
+                                    <color key="titleColor" red="0.015686275437474251" green="0.011764707043766975" blue="0.011764707043766975" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -674,7 +842,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Seleccionar Discapacidades" id="b9j-A4-X6E" userLabel="Seleccionar Discapacidades">
+                    <navigationItem key="navigationItem" title="Seleccionar Discapacidades para Filtrar " id="b9j-A4-X6E" userLabel="Seleccionar Discapacidades">
                         <barButtonItem key="leftBarButtonItem" id="Adi-aC-BvF" userLabel="Volver al menu de servicios"/>
                     </navigationItem>
                     <connections>
@@ -713,52 +881,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Titulo de la Oferta Seleccionada" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eS3-EU-A9z">
-                                <rect key="frame" x="0.0" y="67" width="768" height="93"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sector :  Texto del Sector " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q78-Jg-uEy">
+                                <rect key="frame" x="0.0" y="108" width="768" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sector :  Texto del Sector " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q78-Jg-uEy">
-                                <rect key="frame" x="78" y="192" width="612" height="114"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Entidad Oferta  :  Texto del Sector " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gnK-iQ-116">
                                 <rect key="frame" x="73" y="314" width="612" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Descripcion  :  Texto Descripcion " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="liU-fQ-4Zg">
                                 <rect key="frame" x="73" y="414" width="612" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Requisitos  :  Texto Requisitos " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9nW-83-n7S">
                                 <rect key="frame" x="73" y="545" width="612" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fecha Inicio  : Fecha" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2l3-7n-92u">
                                 <rect key="frame" x="78" y="656" width="612" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre Encargado  : Encargado" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGp-3W-ijt">
                                 <rect key="frame" x="73" y="755" width="612" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zc1-aW-j3t">
-                                <rect key="frame" x="0.0" y="924" width="768" height="94"/>
+                                <rect key="frame" x="0.0" y="902" width="768" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Llamar al encargado ">
+                                <accessibility key="accessibilityConfiguration" hint="Llamar la persona encargada de la oferta laboral con automarcado de numero" label="Llamar la persona encargada de la oferta laboral con automarcado de numero"/>
+                                <state key="normal" title="Llamar al encargado " backgroundImage="pococampovisual.jpg">
+                                    <color key="titleColor" red="0.023529414087533951" green="0.0039215688593685627" blue="0.011764707043766975" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -847,9 +1011,17 @@
             <point key="canvasLocation" x="2303" y="-1511"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="fondo1.jpg" width="768" height="150"/>
+        <image name="fondo2.jpg" width="768" height="150"/>
+        <image name="pococampovisual.jpg" width="768" height="150"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="aM3-Tr-Wqj"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -25,6 +25,22 @@
 		A3D8708C19CE2E3400D09419 /* JHODiscapacidadesOfertaLaboralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D8708B19CE2E3400D09419 /* JHODiscapacidadesOfertaLaboralViewController.m */; };
 		A3D8708F19CE384200D09419 /* JHOListarOfertasLaboralesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D8708E19CE384200D09419 /* JHOListarOfertasLaboralesViewController.m */; };
 		A3D8709219CE467300D09419 /* JHOCadaOfertaLaboralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D8709119CE467300D09419 /* JHOCadaOfertaLaboralViewController.m */; };
+		A3D8709419CE811600D09419 /* pococampovisual.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3D8709319CE811600D09419 /* pococampovisual.jpg */; };
+		A3D8709719CE8C3100D09419 /* 1536X2048.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D8709619CE8C3100D09419 /* 1536X2048.png */; };
+		A3D8709919CE8C5E00D09419 /* 768X1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3D8709819CE8C5E00D09419 /* 768X1024.jpg */; };
+		A3D8709B19CE8C8B00D09419 /* 768X1024.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D8709A19CE8C8B00D09419 /* 768X1024.png */; };
+		A3D8709E19CE8CE500D09419 /* JHOEnviarOfertaMiTrabajoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D8709D19CE8CE500D09419 /* JHOEnviarOfertaMiTrabajoViewController.m */; };
+		A3D870A219CE98B800D09419 /* JHOSeleccionarDiscapacidadEducacionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D870A119CE98B800D09419 /* JHOSeleccionarDiscapacidadEducacionViewController.m */; };
+		A3D870A519CE9B1D00D09419 /* JHOListadosInstitucionesEducacionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D870A419CE9B1D00D09419 /* JHOListadosInstitucionesEducacionViewController.m */; };
+		A3D870A819CE9FEB00D09419 /* JHOCadaInstitucionEducativaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D870A719CE9FEB00D09419 /* JHOCadaInstitucionEducativaViewController.m */; };
+		A3D870AA19CEA4D200D09419 /* 114X114.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D870A919CEA4D200D09419 /* 114X114.png */; };
+		A3D870AC19CEA59700D09419 /* ipad72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D870AB19CEA59700D09419 /* ipad72x72@2x.png */; };
+		A3D870AE19CEA5D500D09419 /* 152X152.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D870AD19CEA5D500D09419 /* 152X152.png */; };
+		A3D870B319CEAC3500D09419 /* fondo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3D870AF19CEAC3500D09419 /* fondo1.jpg */; };
+		A3D870B419CEAC3500D09419 /* fondo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3D870B019CEAC3500D09419 /* fondo2.jpg */; };
+		A3D870B519CEAC3500D09419 /* fondo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3D870B119CEAC3500D09419 /* fondo3.jpg */; };
+		A3D870B619CEAC3500D09419 /* fondo4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3D870B219CEAC3500D09419 /* fondo4.jpg */; };
+		A3D870B919CEBE5400D09419 /* JHOTipoDiscapacidadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D870B819CEBE5400D09419 /* JHOTipoDiscapacidadViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +80,27 @@
 		A3D8708E19CE384200D09419 /* JHOListarOfertasLaboralesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOListarOfertasLaboralesViewController.m; sourceTree = "<group>"; };
 		A3D8709019CE467300D09419 /* JHOCadaOfertaLaboralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOCadaOfertaLaboralViewController.h; sourceTree = "<group>"; };
 		A3D8709119CE467300D09419 /* JHOCadaOfertaLaboralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOCadaOfertaLaboralViewController.m; sourceTree = "<group>"; };
+		A3D8709319CE811600D09419 /* pococampovisual.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pococampovisual.jpg; sourceTree = "<group>"; };
+		A3D8709619CE8C3100D09419 /* 1536X2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1536X2048.png; sourceTree = "<group>"; };
+		A3D8709819CE8C5E00D09419 /* 768X1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 768X1024.jpg; sourceTree = "<group>"; };
+		A3D8709A19CE8C8B00D09419 /* 768X1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 768X1024.png; sourceTree = "<group>"; };
+		A3D8709C19CE8CE500D09419 /* JHOEnviarOfertaMiTrabajoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOEnviarOfertaMiTrabajoViewController.h; sourceTree = "<group>"; };
+		A3D8709D19CE8CE500D09419 /* JHOEnviarOfertaMiTrabajoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOEnviarOfertaMiTrabajoViewController.m; sourceTree = "<group>"; };
+		A3D870A019CE98B800D09419 /* JHOSeleccionarDiscapacidadEducacionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOSeleccionarDiscapacidadEducacionViewController.h; sourceTree = "<group>"; };
+		A3D870A119CE98B800D09419 /* JHOSeleccionarDiscapacidadEducacionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOSeleccionarDiscapacidadEducacionViewController.m; sourceTree = "<group>"; };
+		A3D870A319CE9B1D00D09419 /* JHOListadosInstitucionesEducacionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOListadosInstitucionesEducacionViewController.h; sourceTree = "<group>"; };
+		A3D870A419CE9B1D00D09419 /* JHOListadosInstitucionesEducacionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOListadosInstitucionesEducacionViewController.m; sourceTree = "<group>"; };
+		A3D870A619CE9FEB00D09419 /* JHOCadaInstitucionEducativaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOCadaInstitucionEducativaViewController.h; sourceTree = "<group>"; };
+		A3D870A719CE9FEB00D09419 /* JHOCadaInstitucionEducativaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOCadaInstitucionEducativaViewController.m; sourceTree = "<group>"; };
+		A3D870A919CEA4D200D09419 /* 114X114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114X114.png; sourceTree = "<group>"; };
+		A3D870AB19CEA59700D09419 /* ipad72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad72x72@2x.png"; sourceTree = "<group>"; };
+		A3D870AD19CEA5D500D09419 /* 152X152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 152X152.png; sourceTree = "<group>"; };
+		A3D870AF19CEAC3500D09419 /* fondo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo1.jpg; sourceTree = "<group>"; };
+		A3D870B019CEAC3500D09419 /* fondo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo2.jpg; sourceTree = "<group>"; };
+		A3D870B119CEAC3500D09419 /* fondo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo3.jpg; sourceTree = "<group>"; };
+		A3D870B219CEAC3500D09419 /* fondo4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo4.jpg; sourceTree = "<group>"; };
+		A3D870B719CEBE5400D09419 /* JHOTipoDiscapacidadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOTipoDiscapacidadViewController.h; sourceTree = "<group>"; };
+		A3D870B819CEBE5400D09419 /* JHOTipoDiscapacidadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOTipoDiscapacidadViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +160,8 @@
 		A330411919CD73F300527F47 /* DiscApp */ = {
 			isa = PBXGroup;
 			children = (
+				A3D8709F19CE989300D09419 /* OfertaEducacion */,
+				A3D8709519CE8AC600D09419 /* OfertarMiTrabajo */,
 				A3D8708919CE2E0400D09419 /* OfertaLaboral */,
 				A330412219CD73F300527F47 /* JHOAppDelegate.h */,
 				A330412319CD73F300527F47 /* JHOAppDelegate.m */,
@@ -132,6 +171,8 @@
 				A330412C19CD73F300527F47 /* JHOViewController.m */,
 				A330412E19CD73F300527F47 /* Images.xcassets */,
 				A330411A19CD73F300527F47 /* Supporting Files */,
+				A3D870B719CEBE5400D09419 /* JHOTipoDiscapacidadViewController.h */,
+				A3D870B819CEBE5400D09419 /* JHOTipoDiscapacidadViewController.m */,
 			);
 			path = DiscApp;
 			sourceTree = "<group>";
@@ -139,6 +180,17 @@
 		A330411A19CD73F300527F47 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A3D870AF19CEAC3500D09419 /* fondo1.jpg */,
+				A3D870B019CEAC3500D09419 /* fondo2.jpg */,
+				A3D870B119CEAC3500D09419 /* fondo3.jpg */,
+				A3D870B219CEAC3500D09419 /* fondo4.jpg */,
+				A3D870AD19CEA5D500D09419 /* 152X152.png */,
+				A3D870AB19CEA59700D09419 /* ipad72x72@2x.png */,
+				A3D870A919CEA4D200D09419 /* 114X114.png */,
+				A3D8709A19CE8C8B00D09419 /* 768X1024.png */,
+				A3D8709819CE8C5E00D09419 /* 768X1024.jpg */,
+				A3D8709619CE8C3100D09419 /* 1536X2048.png */,
+				A3D8709319CE811600D09419 /* pococampovisual.jpg */,
 				A330411B19CD73F300527F47 /* DiscApp-Info.plist */,
 				A330411C19CD73F300527F47 /* InfoPlist.strings */,
 				A330411F19CD73F300527F47 /* main.m */,
@@ -176,6 +228,28 @@
 				A3D8709119CE467300D09419 /* JHOCadaOfertaLaboralViewController.m */,
 			);
 			name = OfertaLaboral;
+			sourceTree = "<group>";
+		};
+		A3D8709519CE8AC600D09419 /* OfertarMiTrabajo */ = {
+			isa = PBXGroup;
+			children = (
+				A3D8709C19CE8CE500D09419 /* JHOEnviarOfertaMiTrabajoViewController.h */,
+				A3D8709D19CE8CE500D09419 /* JHOEnviarOfertaMiTrabajoViewController.m */,
+			);
+			name = OfertarMiTrabajo;
+			sourceTree = "<group>";
+		};
+		A3D8709F19CE989300D09419 /* OfertaEducacion */ = {
+			isa = PBXGroup;
+			children = (
+				A3D870A019CE98B800D09419 /* JHOSeleccionarDiscapacidadEducacionViewController.h */,
+				A3D870A119CE98B800D09419 /* JHOSeleccionarDiscapacidadEducacionViewController.m */,
+				A3D870A319CE9B1D00D09419 /* JHOListadosInstitucionesEducacionViewController.h */,
+				A3D870A419CE9B1D00D09419 /* JHOListadosInstitucionesEducacionViewController.m */,
+				A3D870A619CE9FEB00D09419 /* JHOCadaInstitucionEducativaViewController.h */,
+				A3D870A719CE9FEB00D09419 /* JHOCadaInstitucionEducativaViewController.m */,
+			);
+			name = OfertaEducacion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +300,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = jhonatan;
 				TargetAttributes = {
+					A330410F19CD73F300527F47 = {
+						DevelopmentTeam = BCD3V3L5XE;
+					};
 					A330413319CD73F300527F47 = {
 						TestTargetID = A330410F19CD73F300527F47;
 					};
@@ -255,9 +332,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D8709419CE811600D09419 /* pococampovisual.jpg in Resources */,
 				A330412A19CD73F300527F47 /* Main_iPad.storyboard in Resources */,
 				A330412F19CD73F300527F47 /* Images.xcassets in Resources */,
+				A3D870AC19CEA59700D09419 /* ipad72x72@2x.png in Resources */,
+				A3D870B619CEAC3500D09419 /* fondo4.jpg in Resources */,
+				A3D870B319CEAC3500D09419 /* fondo1.jpg in Resources */,
+				A3D8709B19CE8C8B00D09419 /* 768X1024.png in Resources */,
+				A3D8709719CE8C3100D09419 /* 1536X2048.png in Resources */,
+				A3D870AE19CEA5D500D09419 /* 152X152.png in Resources */,
+				A3D870B419CEAC3500D09419 /* fondo2.jpg in Resources */,
 				A330412719CD73F300527F47 /* Main_iPhone.storyboard in Resources */,
+				A3D870B519CEAC3500D09419 /* fondo3.jpg in Resources */,
+				A3D870AA19CEA4D200D09419 /* 114X114.png in Resources */,
+				A3D8709919CE8C5E00D09419 /* 768X1024.jpg in Resources */,
 				A330411E19CD73F300527F47 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,8 +368,13 @@
 				A330412419CD73F300527F47 /* JHOAppDelegate.m in Sources */,
 				A3D8708C19CE2E3400D09419 /* JHODiscapacidadesOfertaLaboralViewController.m in Sources */,
 				A3D8708F19CE384200D09419 /* JHOListarOfertasLaboralesViewController.m in Sources */,
+				A3D870A519CE9B1D00D09419 /* JHOListadosInstitucionesEducacionViewController.m in Sources */,
+				A3D870A219CE98B800D09419 /* JHOSeleccionarDiscapacidadEducacionViewController.m in Sources */,
+				A3D870B919CEBE5400D09419 /* JHOTipoDiscapacidadViewController.m in Sources */,
 				A330412019CD73F300527F47 /* main.m in Sources */,
+				A3D870A819CE9FEB00D09419 /* JHOCadaInstitucionEducativaViewController.m in Sources */,
 				A3D8709219CE467300D09419 /* JHOCadaOfertaLaboralViewController.m in Sources */,
+				A3D8709E19CE8CE500D09419 /* JHOEnviarOfertaMiTrabajoViewController.m in Sources */,
 				A330412D19CD73F300527F47 /* JHOViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,10 +510,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DiscApp/DiscApp-Prefix.pch";
 				INFOPLIST_FILE = "DiscApp/DiscApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -430,10 +526,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DiscApp/DiscApp-Prefix.pch";
 				INFOPLIST_FILE = "DiscApp/DiscApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

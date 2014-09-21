@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DiscApp/JHODiscapacidadesOfertaLaboralViewController.m"
-            timestampString = "432945320.609729"
+            timestampString = "432965256.225158"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
             landmarkName = "-BuscarOfertaLaboral:"
             landmarkType = "5">
          </BreakpointContent>

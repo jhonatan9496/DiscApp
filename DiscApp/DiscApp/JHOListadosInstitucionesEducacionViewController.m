@@ -1,24 +1,20 @@
 //
-//  JHOListarOfertasLaboralesViewController.m
+//  JHOListadosInstitucionesEducacionViewController.m
 //  DiscApp
 //
-//  Created by JHONATAN ACELAS AREVALO on 20/09/14.
+//  Created by JHONATAN ACELAS AREVALO on 21/09/14.
 //  Copyright (c) 2014 jhonatan. All rights reserved.
 //
 
-#import "JHOListarOfertasLaboralesViewController.h"
-#import "JHOCadaOfertaLaboralViewController.h"
-#import "JHOCadaOfertaLaboralViewController.h"
+#import "JHOListadosInstitucionesEducacionViewController.h"
+#import "JHOCadaInstitucionEducativaViewController.h" 
 
-@interface JHOListarOfertasLaboralesViewController ()
+@interface JHOListadosInstitucionesEducacionViewController ()
 
 @end
 
-@implementation JHOListarOfertasLaboralesViewController{
-
+@implementation JHOListadosInstitucionesEducacionViewController{
     NSMutableArray *ofertasLaborales;
-    
-    
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -33,9 +29,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    self.navigationItem.title = @" Listado Ofertas Laborales";
-    
     
     ofertasLaborales = [[NSMutableArray alloc]init];
     
@@ -44,67 +37,68 @@
         for (int i=0; i<3; i++) {
             NSMutableDictionary *informacionOfertasLaborales = [[NSMutableDictionary alloc] init];;
             
-            [informacionOfertasLaborales  setValue:@"Informacion Oferta Laboral fisica" forKey:@"nombre"];
-            [informacionOfertasLaborales setValue:@"Descripcion Oferta Laboral" forKey:@"descripcion"];
+            [informacionOfertasLaborales  setValue:@"Informacion Oferta educativa fisica" forKey:@"nombre"];
+            [informacionOfertasLaborales setValue:@"Descripcion Oferta educativa" forKey:@"descripcion"];
             [informacionOfertasLaborales setValue:@"fisica" forKey:@"discapacidad"];
             [ofertasLaborales addObject:informacionOfertasLaborales];
         }
     }
     
     if ([_visual isEqualToString:@"on"]) {
-    
-    for (int i=0; i<3; i++) {
-        NSMutableDictionary *informacionOfertasLaborales = [[NSMutableDictionary alloc] init];;
         
-        [informacionOfertasLaborales  setValue:@"Informacion Oferta Laboral visual" forKey:@"nombre"];
-        [informacionOfertasLaborales setValue:@"Descripcion Oferta Laboral" forKey:@"descripcion"];
-        [informacionOfertasLaborales setValue:@"visual" forKey:@"discapacidad"];
-        [ofertasLaborales addObject:informacionOfertasLaborales];
-    }
+        for (int i=0; i<3; i++) {
+            NSMutableDictionary *informacionOfertasLaborales = [[NSMutableDictionary alloc] init];;
+            
+            [informacionOfertasLaborales  setValue:@"Informacion Oferta educativa visual" forKey:@"nombre"];
+            [informacionOfertasLaborales setValue:@"Descripcion Oferta educativa" forKey:@"descripcion"];
+            [informacionOfertasLaborales setValue:@"visual" forKey:@"discapacidad"];
+            [ofertasLaborales addObject:informacionOfertasLaborales];
+        }
         
     }
     
     if ([_auditiva isEqualToString:@"on"]) {
-    
-    for (int i=0; i<3; i++) {
-        NSMutableDictionary *informacionOfertasLaborales = [[NSMutableDictionary alloc] init];;
         
-        [informacionOfertasLaborales  setValue:@"Informacion Oferta Laboral Auditiva" forKey:@"nombre"];
-        [informacionOfertasLaborales setValue:@"Descripcion Oferta Laboral" forKey:@"descripcion"];
-        [informacionOfertasLaborales setValue:@"auditiva" forKey:@"discapacidad"];
-        [ofertasLaborales addObject:informacionOfertasLaborales];
-    }
+        for (int i=0; i<3; i++) {
+            NSMutableDictionary *informacionOfertasLaborales = [[NSMutableDictionary alloc] init];;
+            
+            [informacionOfertasLaborales  setValue:@"Informacion Oferta educativa Auditiva" forKey:@"nombre"];
+            [informacionOfertasLaborales setValue:@"Descripcion Oferta educativa" forKey:@"descripcion"];
+            [informacionOfertasLaborales setValue:@"auditiva" forKey:@"discapacidad"];
+            [ofertasLaborales addObject:informacionOfertasLaborales];
+        }
     }
     
     if ([_mental isEqualToString:@"on"]) {
-    
-    for (int i=0; i<3; i++) {
-        NSMutableDictionary *informacionOfertasLaborales = [[NSMutableDictionary alloc] init];;
         
-        [informacionOfertasLaborales  setValue:@"Informacion Oferta Laboral mental" forKey:@"nombre"];
-        [informacionOfertasLaborales setValue:@"Descripcion Oferta Laboral" forKey:@"descripcion"];
-        [informacionOfertasLaborales setValue:@"mental" forKey:@"discapacidad"];
-        [ofertasLaborales addObject:informacionOfertasLaborales];
-    }
+        for (int i=0; i<3; i++) {
+            NSMutableDictionary *informacionOfertasLaborales = [[NSMutableDictionary alloc] init];;
+            
+            [informacionOfertasLaborales  setValue:@"Informacion Oferta educativa mental" forKey:@"nombre"];
+            [informacionOfertasLaborales setValue:@"Descripcion Oferta educativa" forKey:@"descripcion"];
+            [informacionOfertasLaborales setValue:@"mental" forKey:@"discapacidad"];
+            [ofertasLaborales addObject:informacionOfertasLaborales];
+        }
         
     }
     
     if ([_cognitiva isEqualToString:@"on"]) {
-    
-    for (int i=0; i<3; i++) {
-        NSMutableDictionary *informacionOfertasLaborales = [[NSMutableDictionary alloc] init];;
         
-        [informacionOfertasLaborales  setValue:@"Informacion Oferta Laboral cognitiva" forKey:@"nombre"];
-        [informacionOfertasLaborales setValue:@"Descripcion Oferta Laboral" forKey:@"descripcion"];
-        [informacionOfertasLaborales setValue:@"cognitiva" forKey:@"discapacidad"];
-        [ofertasLaborales addObject:informacionOfertasLaborales];
-    }
+        for (int i=0; i<3; i++) {
+            NSMutableDictionary *informacionOfertasLaborales = [[NSMutableDictionary alloc] init];;
+            
+            [informacionOfertasLaborales  setValue:@"Informacion Oferta educativa cognitiva" forKey:@"nombre"];
+            [informacionOfertasLaborales setValue:@"Descripcion Oferta educativa" forKey:@"descripcion"];
+            [informacionOfertasLaborales setValue:@"cognitiva" forKey:@"discapacidad"];
+            [ofertasLaborales addObject:informacionOfertasLaborales];
+        }
     }
     
-
+    
     
     [self.tableView reloadData];
-    
+
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
@@ -186,18 +180,19 @@
     NSDictionary *datosBusqueda =[ofertasLaborales objectAtIndex:indexPath.row];
     
     
-        JHOCadaOfertaLaboralViewController  *cadaConvocatoria = [self.storyboard instantiateViewControllerWithIdentifier:@"CadaOfertaLaboral"];
-        [self.navigationController pushViewController:cadaConvocatoria animated:YES];
-    cadaConvocatoria.textTituloOferta =@"esto es una prueba del titulo textTituloOferta";
-    cadaConvocatoria.textSector =@"esto es una prueba del titulo textSector";
-    cadaConvocatoria.textDescripcion =@"esto es una prueba del titulo Oferta";
-    cadaConvocatoria.textRequisitos =@"esto es una prueba del titulo textRequisitos";
-    cadaConvocatoria.textFecha =@"esto es una prueba del titulo textFecha";
-    cadaConvocatoria.textEncargado =@"esto es una prueba del titulo textEncargado";
+    JHOCadaInstitucionEducativaViewController  *cadaConvocatoria = [self.storyboard instantiateViewControllerWithIdentifier:@"CadaInstitucionEducativa"];
+    [self.navigationController pushViewController:cadaConvocatoria animated:YES];
+    cadaConvocatoria.textTituloInstitucion =@"esto es una prueba del titulo textTituloOferta";
+    cadaConvocatoria.textRequisitos =@"esto es una prueba del titulo textSector";
+    cadaConvocatoria.textFechaMatricula =@"15 de Agosto 2014";
+  //  cadaConvocatoria.textRequisitos =@"esto es una prueba del titulo textRequisitos";
+   // cadaConvocatoria.textFecha =@"esto es una prueba del titulo textFecha";
+  //  cadaConvocatoria.textEncargado =@"esto es una prueba del titulo textEncargado";
     
-   //     cadaConvocatoria.textTituloConvocatoria =[datosBusqueda objectForKey:@"nombre"];
-   //     cadaConvocatoria.textDeescripcionConvocatoria = [datosBusqueda objectForKey:@"descripcion"];
-   //     cadaConvocatoria.textLinkConvocatoria = [datosBusqueda objectForKey:@"link"];
-  }
+    //     cadaConvocatoria.textTituloConvocatoria =[datosBusqueda objectForKey:@"nombre"];
+    //     cadaConvocatoria.textDeescripcionConvocatoria = [datosBusqueda objectForKey:@"descripcion"];
+    //     cadaConvocatoria.textLinkConvocatoria = [datosBusqueda objectForKey:@"link"];
+}
+
 
 @end

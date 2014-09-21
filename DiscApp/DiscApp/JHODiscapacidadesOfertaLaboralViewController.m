@@ -14,7 +14,7 @@
 @end
 
 @implementation JHODiscapacidadesOfertaLaboralViewController
-@synthesize selectDiscapacidadFisica;
+@synthesize selectDiscapacidadFisica,selectDiscapacidadAuditiva,selectDiscapacidadCognitiva,selectDiscapacidadMental,selectDiscapacidadVisual;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -60,6 +60,25 @@
     JHOListarOfertasLaboralesViewController  *cadaConvocatoria = [self.storyboard instantiateViewControllerWithIdentifier:@"ListaOfertasLaborales"];
     [self.navigationController pushViewController:cadaConvocatoria animated:YES];
     
+    if ([selectDiscapacidadFisica isOn]) {
+        cadaConvocatoria.fisica=@"on";
+    }
+    
+    if ([selectDiscapacidadAuditiva isOn]) {
+        cadaConvocatoria.auditiva=@"on";
+    }
+    
+    if ([selectDiscapacidadVisual isOn]) {
+        cadaConvocatoria.visual=@"on";
+    }
+    
+    if ([selectDiscapacidadMental isOn]) {
+        cadaConvocatoria.mental=@"on";
+    }
+    
+    if ([selectDiscapacidadCognitiva isOn]) {
+        cadaConvocatoria.cognitiva=@"on";
+    }
     //NSLog(@"Valores  %d %d %d %d %d ",_selectDiscapacidadFisica.selected,_selectDiscapacidadAuditiva,_selectDiscapacidadVisual,_selectDiscapacidadMental,_selectDiscapacidadCognitiva);
     
 }
