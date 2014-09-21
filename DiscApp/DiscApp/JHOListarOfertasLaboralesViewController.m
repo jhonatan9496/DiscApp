@@ -8,6 +8,7 @@
 
 #import "JHOListarOfertasLaboralesViewController.h"
 #import "JHOCadaOfertaLaboralViewController.h"
+#import "JHOCadaOfertaLaboralViewController.h"
 
 @interface JHOListarOfertasLaboralesViewController ()
 
@@ -33,6 +34,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.navigationItem.title = @" Listado Ofertas Laborales";
     
     
     ofertasLaborales = [[NSMutableArray alloc]init];
@@ -126,11 +128,13 @@
 //------------------------------------------------------------------
 -(void) tableView: (UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-  //  NSDictionary *datosBusqueda =[busquedaSel objectAtIndex:indexPath.row];
+    NSDictionary *datosBusqueda =[ofertasLaborales objectAtIndex:indexPath.row];
     
     
-   //     JHOCadaConvocatoriaViewController  *cadaConvocatoria = [self.storyboard instantiateViewControllerWithIdentifier:@"JHOCadaConvocatoriaViewController"];
-   //     [self.navigationController pushViewController:cadaConvocatoria animated:YES];
+        JHOCadaOfertaLaboralViewController  *cadaConvocatoria = [self.storyboard instantiateViewControllerWithIdentifier:@"CadaOfertaLaboral"];
+        [self.navigationController pushViewController:cadaConvocatoria animated:YES];
+    cadaConvocatoria.textTituloOferta =@"esto es una prueba del titulo Oferta";
+    
    //     cadaConvocatoria.textTituloConvocatoria =[datosBusqueda objectForKey:@"nombre"];
    //     cadaConvocatoria.textDeescripcionConvocatoria = [datosBusqueda objectForKey:@"descripcion"];
    //     cadaConvocatoria.textLinkConvocatoria = [datosBusqueda objectForKey:@"link"];

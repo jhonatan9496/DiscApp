@@ -10,4 +10,21 @@
 
 @interface JHOCadaOfertaLaboralViewController : UIViewController
 
+
+//Retiene valores de la vista
+@property (nonatomic, strong) NSString *textTituloOferta;
+@property (nonatomic, strong) NSString *textSector;
+@property (nonatomic, strong) NSString *textDescripcion;
+@property (nonatomic, strong) NSString *textRequisitos;
+@property (nonatomic, strong) NSString *textFecha;
+@property (nonatomic, strong) NSString *textEncargado;
+
+@property (strong, nonatomic) IBOutlet UILabel *labelTituloOferta;
+@property (strong, nonatomic) IBOutlet UILabel *labelSector;
+@property (strong, nonatomic) IBOutlet UILabel *labelDescripcion;
+@property (strong, nonatomic) IBOutlet UILabel *LabelRequisito;
+@property (strong, nonatomic) IBOutlet UILabel *labelFechaInicio;
+@property (strong, nonatomic) IBOutlet UILabel *labelEncargado;
+
+- (IBAction)LlamarEncargadoOfertaLaboral:(id)sender;
 @end

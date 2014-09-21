@@ -27,6 +27,16 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [_labelTituloOferta setText:_textTituloOferta];
+    [_labelSector setText:_textSector];
+    [_labelDescripcion setText:_textDescripcion];
+    [_LabelRequisito setText:_textRequisitos];
+    [_labelFechaInicio setText:_textFecha];
+    [_labelEncargado setText:_textEncargado];
+    
+    
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -46,4 +56,8 @@
 }
 */
 
+- (IBAction)LlamarEncargadoOfertaLaboral:(id)sender {
+    NSString *phoneNumber = [@"tel://" stringByAppendingString:@"3192521991"];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:phoneNumber]];
+}
 @end

@@ -701,10 +701,10 @@
             </objects>
             <point key="canvasLocation" x="431" y="-1511"/>
         </scene>
-        <!--View Controller-->
+        <!--Cada Oferta Laboral View Controller-->
         <scene sceneID="Ofr-Fo-ZjR">
             <objects>
-                <viewController storyboardIdentifier="CadaOfertaLaboral" id="ecE-QI-zXr" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CadaOfertaLaboral" id="ecE-QI-zXr" customClass="JHOCadaOfertaLaboralViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cOM-nm-G2B"/>
                         <viewControllerLayoutGuide type="bottom" id="RQ0-r2-L63"/>
@@ -761,10 +761,21 @@
                                 <state key="normal" title="Llamar al encargado ">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="LlamarEncargadoOfertaLaboral:" destination="ecE-QI-zXr" eventType="touchUpInside" id="DKB-GY-2To"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="LabelRequisito" destination="9nW-83-n7S" id="tZg-03-a8n"/>
+                        <outlet property="labelDescripcion" destination="liU-fQ-4Zg" id="i26-oY-UhW"/>
+                        <outlet property="labelEncargado" destination="cGp-3W-ijt" id="wRn-uM-M3a"/>
+                        <outlet property="labelFechaInicio" destination="2l3-7n-92u" id="Edt-jE-41q"/>
+                        <outlet property="labelSector" destination="gnK-iQ-116" id="5Xg-ww-5gi"/>
+                        <outlet property="labelTituloOferta" destination="q78-Jg-uEy" id="HvF-gN-SEL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fe8-cU-AZH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
